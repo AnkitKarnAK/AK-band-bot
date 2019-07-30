@@ -1,14 +1,14 @@
 {
-  "name": "discordjsbot",
+  "name": "band bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "bandbot by ak",
   "main": "band.js",
   "scripts": {
 
     "start": "node band.js"
 
   },
-  "author": "",
+  "author": "ak",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1"
