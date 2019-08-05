@@ -21,7 +21,7 @@ client.on('message', message => {
             return message.channel.send(`You didn't provide band link, ${message.author}!`);
         }
         message.delete(1000);
-        message.channel.send(`<@&456550270701142058>\n\n\n**Sync time is out** : ||<${args[0]}>||\n\nConfirm below if u can start or not:\n✅: YES\n❌: NO\n❕: Not sure`).then(function(message){message.react('✅')
+        message.channel.send(`@everyone\n\n\n**Sync time is out** : ||<${args[0]}>||\n\nConfirm below if u can start or not:\n✅: YES\n❌: NO\n❕: Not sure`).then(function(message){message.react('✅')
         .then(() => message.react('❌'))
         .then(() => message.react('❕'))
         .catch(() => console.error('One of the emojis failed to react.'))});
