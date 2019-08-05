@@ -1,16 +1,22 @@
 {
-  "name": "band bot",
+  "name": "AK-band-bot",
   "version": "1.0.0",
-  "description": "bandbot by ak",
   "main": "band.js",
   "scripts": {
-
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node band.js"
-
   },
-  "author": "ak",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.5.1"
-  }
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.0.0"
+  },
+    "engines": {
+    "node": "10.16.0",
+    "npm": "*"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
 }
