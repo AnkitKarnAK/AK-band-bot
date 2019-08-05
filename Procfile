@@ -1,1 +1,1 @@
-worker: node band.js
+worker: npm start
